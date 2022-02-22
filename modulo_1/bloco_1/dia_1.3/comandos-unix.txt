@@ -1,0 +1,33 @@
+Um bom exercício é, mentalmente, tentar descrever o que cada comando faz.
+    • Ls – vizualizar conteudo da pasta
+    • mkdir – criar diretorio
+    • cd – mudar diretorio
+    • pwd – verificar o caminho de diretorio
+    • cp – copiar arquivo
+    • mv – mover ou renomear arquivo
+    • rm – removar pasta vazia ou diretorio vazio
+    • rmdir – remover diretorio vazio
+    • clear – limpar console
+    • cat – exibir arquivo
+    • less – imprimir arquivo na tela
+    • head – 10 primeiros palavras
+    • tail – 10 ultimas palavras
+    • grep – pesquisar no arquivo
+    • wc – contar linhas, palavras e caracteres
+    • > - redirecionar para outra coisa
+    • >> - adicionar
+    • | - concatenar com outro comando
+    • sort - ordenar
+    • who – quem está usando a maquina
+    • man - manual
+    • whatis – pra que serve isso
+    • apropos
+    • * - coringa
+    • ? - coringa mas de um caractere
+    • chmod – modificador de permissoes
+    • ps - processos
+    • bg – processos em segundo plano
+    • fg – processos em primeiro plano
+    • kill - matar
+    • find - procurar
+    • history – historico de comando utilizado no console

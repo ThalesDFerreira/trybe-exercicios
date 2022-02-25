@@ -1,2 +1,23 @@
 div:hover{
     background-color: green;
+}
+
+#cor-primaria:hover {
+    background-color: red;
+}
+
+#cor-secundaria:hover {
+    background-color: blue;
+}
+
+#cor-complementar:hover {
+    background-color: yellow;
+}
+
+#cor-escura:hover {
+    background-color: brown;
+}
+
+#cor-clara:hover {
+    background-color: aqua;
+}

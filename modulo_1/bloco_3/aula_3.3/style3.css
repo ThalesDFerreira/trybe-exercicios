@@ -4,3 +4,6 @@ h1, p{
 li:hover{
     background-color: green;
 }
+li:active{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

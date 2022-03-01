@@ -1,32 +1,32 @@
-#cor-primaria:hover {
+#cor-primaria:hover, cor-primaria h3 {
     background-color: red;
+    text-transform: uppercase;
 }
 
-#cor-secundaria:hover {
+#cor-secundaria:hover, cor-secundaria h3 {
     background-color: blue;
+    color: blanchedalmond;
 }
 
 #cor-complementar {
     font-size: 50px;
 }
 
-#cor-complementar:hover {
+#cor-complementar:hover, cor-complementar h3 {
     background-color: yellow;
+    color: brown;
 }
 
-#cor-escura:hover {
+#cor-escura:hover, cor-escura h3 {
     background-color: brown;
+    color: yellow;
 }
 
-#cor-clara:hover {
+#cor-clara:hover, cor-clara h3 {
     background-color: aqua;
+    color: greenyellow;
 }
 
-body h3, body h3:nth-child(odd) {
-    color: violet;
+ul li:nth-child(odd) {
     font-style: italic;
 }
-
-/* li:nth-child(odd) {
-    font-style: italic;
-} */

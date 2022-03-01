@@ -1,20 +1,20 @@
-div ol {
+ol {
     background-color: yellow;
 }
 
 body ol li:nth-child(even) {
-    background-color: green;
+    color: green;
 }
 
 body ol li:nth-child(odd) {
     text-transform: uppercase;
 }
 
-h1, h2, h3 {
+h1, h2, h3{
     color: red;
 }
 
-h1 {
+h1 em, h2 em, h3 em{
     font-size: 40px;
     border: 1px black solid;
 }
@@ -23,6 +23,38 @@ li{
     font-size: 20px;
 }
 
-/* li:nth-child(odd) {
-    font-style: italic;
-} */
+li em{
+    font-weight: bold;
+}
+
+ul#liguagens-programacao li:nth-child(-n+3){
+    color: blue;
+}
+
+ul li.java{
+    background-color: pink;
+}
+
+.stack:hover,.w3:hover,.mdn:hover,.dev:hover,.trybe:hover {
+    font-weight: bold;
+}
+
+.stack:hover a {
+    color: orange;
+}
+
+.w3:hover a {
+    color: green;
+}
+
+.mdn:hover a {
+    color: black;
+}
+
+.dd:hover a {
+    color: yellow;
+}
+
+.trybe:hover a {
+    color: lime;
+}

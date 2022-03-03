@@ -1,0 +1,22 @@
+body {
+    background-color: yellow;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(57, 179, 235);
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 15px;
+}

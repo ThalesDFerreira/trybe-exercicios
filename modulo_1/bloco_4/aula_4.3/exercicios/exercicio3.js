@@ -2,18 +2,23 @@
 
 let array = ['java', 'javascript', 'python', 'html', 'css'];
 
-// Escreva dois algoritmos: um que retorne a maior palavra deste array e outro que retorne a menor. Considere o número de caracteres de cada palavra.
-let caracter = "";
-let caracterDoArray = "";
+// Escreva dois algoritmos: um que retorne a maior palavra deste array e outro que retorne a menor. 
+// Considere o número de caracteres de cada palavra.
+
+let maiorPalavra = array[0];
+let menorPalavra = array[0];
 
 for (let index = 0; index < array.length; index += 1) {
-    caracter = array[index].split('');   
+    if (array[index].length > maiorPalavra.length) {
+        maiorPalavra = array[index];
+    }
 }
 
-// for (let index2 = 0; index2 < caracter.length; index2 += 1) {
-//     caracterDoArray = caracterDoArray + caracter[index2];
+for (let index2 = 0; index2 < array.length; index2 += 1) {
+    if (array[index2].length < menorPalavra.length) {
+        menorPalavra = array[index2];
+    }
 }
 
-console.log(array);
-console.log(caracter);
-console.log(caracterDoArray);
+console.log(maiorPalavra);
+console.log(menorPalavra);

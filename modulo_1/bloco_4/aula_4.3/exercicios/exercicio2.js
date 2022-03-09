@@ -3,10 +3,20 @@
 
 let word = 'thales';
 
-let invertida = word.split('').reverse().join('');  
+let invertida = '';
 
-// split = transforma uma string em um arrey; 
+for (let index = word.length - 1; index >= 0; index -= 1) {
+  invertida += word[index];
+}
+
+console.log(invertida);
+
+
+
+// MANEIRA DECRESCENTE !!!
+
+
+// let invertida = word.split('').reverse().join('');
+// split = transforma uma string em um arrey;
 // reverse = ele pega o arrey e inverte os caracteres;
 // join = junta os caracteres do arrey;
-
-console.log(invertida); 

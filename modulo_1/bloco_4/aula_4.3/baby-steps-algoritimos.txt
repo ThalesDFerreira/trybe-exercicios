@@ -1,0 +1,36 @@
+A resolução do problema acontece em 3 etapas:
+1 - Interpretação;
+2 - Criação do algoritmo;
+3 - Codificação do algoritmo.
+-------------------------------------------------------------------------------------------------------------------
+
+Questão: Utilizando o array abaixo, percorra-o somando todos os valores. Caso o valor final seja maior que 15, imprima-o. Caso seja igual ou menor que 15, imprima a mensagem: "valor menor que 16":
+
+Analisando o enunciado, sabemos que:
+1 - devemos utilizar o array fruits ;
+2 - o termo " percorra " indica uma estrutura de repetição, ou loop;
+3 - " somando todos os valores " mostra que devemos ter uma variável que guarda o valor da soma dos valores;
+4 - o termo " caso " indica uma estrutura condicional, ou if ;
+5 - " imprima o valor final " indica um console.log ;
+
+-------------------------------------------------------------------------------------------------------------------
+
+Agora vamos criar o algoritmo, e pra isso faremos uso dos baby steps . Eles nos estimulam a dividir grandes e complexos problemas em pequenos e simples.
+1 - Adicionar o array;
+2 - Criar uma variável com valor 0;
+3 - Criar um loop que percorre o array;
+4 - Incrementar a variável com o valor correspondente a cada loop;
+5 - Criar um if com a condição da variável ser maior que 15;
+6 - Caso a variável obedeça a condição;
+7 - Imprimir a variável
+8 - Caso não obedeça a condição;
+9 - Imprimir a mensagem "valor menor que 16";
+
+--------------------------------------------------------------------------------------------------------------------
+
+Após escrever o algoritmo, responda as seguintes perguntas:
+1 - Eu resolvi o problema?
+2 - Havia outras maneiras de resolver o problema?
+3 - A maneira que eu escolhi foi a mais eficiente possível, ou havia como fazer a mesma coisa com menos passos?
+4 - Seria possível inverter ou retirar algum passo?
+5 - Se eu fosse um computador, conseguiria entender todas as instruções?

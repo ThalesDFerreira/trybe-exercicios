@@ -3,7 +3,10 @@
 
 let word = 'thales';
 
-let invertida = word.split('').reverse().join('');  //split = transforma uma string em um arrey; 
-                                                    //reverse = ele pega o arrey e inverte os caracteres;
-                                                    //join = junta os caracteres do arrey;
+let invertida = word.split('').reverse().join('');  
+
+// split = transforma uma string em um arrey; 
+// reverse = ele pega o arrey e inverte os caracteres;
+// join = junta os caracteres do arrey;
+
 console.log(invertida); 

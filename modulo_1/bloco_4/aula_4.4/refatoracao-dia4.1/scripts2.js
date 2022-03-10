@@ -1,8 +1,6 @@
 const a = 50;
 const b = 80;
 
-let maiorValor = 0;
-
 function maiorValor(a, b) {
     if (a > b) {
         return a + ' é maior que ' + b;
@@ -11,3 +9,5 @@ function maiorValor(a, b) {
         return b + ' é maior que ' + a;
     }
 }
+
+console.log(maiorValor(a, b));

@@ -1,12 +1,18 @@
-const anguloA = 60;
-const anguloB = 60;
-const anguloC = 60;
+const angleA = 60;
+const angleB = 60;
+const angleC = 60;
 
-const somaAngulos = anguloA + anguloB + anguloC;
-
-if (somaAngulos === 180) {
-    console.log(true)
-} 
-else {
-    console.log(false)
-}
+function triangleAnglesValidate(angleA, angleB, angleC) {
+    let sumOfAngles = angleA + angleB + angleC;
+    let allAnglesArePositives = angleA > 0 && angleB > 0 && angleC > 0;
+  
+    if (allAnglesArePositives) {
+      if (sumOfAngles === 180) {
+        return true;
+      } else {
+        return false;
+      }
+    } else {
+      return 'Erro: ângulo inválido';
+    }
+  }

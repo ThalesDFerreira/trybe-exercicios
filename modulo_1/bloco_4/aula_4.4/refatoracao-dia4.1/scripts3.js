@@ -2,16 +2,14 @@ const a = 50;
 const b = 80;
 const c = 100;
 
-const resultado = a;
-const resultado2 = b;
-const resultado3 = c;
-
-if (a > b > c) {
-    console.log(resultado);
-}
-else if (b > a > c) {
-    console.log(resultado2);
-}
-else {
-    console.log(resultado3);
+function maiorValor(a, b, c) {
+    if (a > b && a > c) {
+        return a + " é maior que " + b + " e " + c;
+    }
+    else if (b > a && b > c) {
+        return b + " é maior que " + a + " e " + c;
+    }
+    else {
+        return c + " é maior que " + a + " e " + b;
+    }
 }

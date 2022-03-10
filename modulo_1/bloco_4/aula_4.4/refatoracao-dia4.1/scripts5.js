@@ -16,3 +16,4 @@ function triangleAnglesValidate(angleA, angleB, angleC) {
       return 'Erro: ângulo inválido';
     }
   }
+console.log(triangleAnglesValidate(angleA, angleB, angleC));

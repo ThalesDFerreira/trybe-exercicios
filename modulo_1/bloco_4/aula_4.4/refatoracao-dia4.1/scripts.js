@@ -21,3 +21,9 @@ function soma(a, b) {
   function mod(a, b) {
     return a % b;
   }
+
+  console.log(soma(a, b));
+  console.log(sub(a, b));
+  console.log(mult(a, b));
+  console.log(div(a, b));
+  console.log(mod(a, b));

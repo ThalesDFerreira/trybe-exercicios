@@ -13,3 +13,5 @@ function maiorValor(a, b, c) {
         return c + " é maior que " + a + " e " + b;
     }
 }
+
+console.log(maiorValor(a, b, c));

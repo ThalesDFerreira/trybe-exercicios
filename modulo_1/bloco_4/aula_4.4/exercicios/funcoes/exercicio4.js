@@ -17,4 +17,4 @@ function biggerName(names) {
     return result;
 }
 
-console.log(biggerName());
+console.log(biggerName(names));

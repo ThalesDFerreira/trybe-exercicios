@@ -63,6 +63,7 @@
         // filho da tag body ;
 
         let pai = document.getElementById("pai");
+
         let filhoDePai = document.createElement("h1");
         filhoDePai.innerText = "Exercício 5.2 - JavaScript DOM";
         pai.appendChild(filhoDePai);
@@ -114,18 +115,50 @@
         // por extenso, ou seja, um , dois , três , ... como valores da lista. 
         // Essa lista deve ser filha do section criado no passo 6;
 
-        let listaFilhoDoFilhoDoIrmaoDePai3 = document.createElement("ul");
+        let listaFilhoDoFilhoDoIrmaoDePai3 = document.createElement('ul');
         filhoDoIrmaoDePai3.appendChild(listaFilhoDoFilhoDoIrmaoDePai3);
-
-        let sequenciaUmADez = ["um, dois, três, quatro, cinco, seis, sete, oito, nove, dez"];
-
+        let sequenciaUmADez = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
         for (let index in sequenciaUmADez) {
-            let addLista = document.createElement("li");
-            addlista.innerText = sequenciaUmADez[index];
-            listaFilhoDoFilhoDoIrmaoDePai3.appendChild(addLista);
+            let listaAdd = document.createElement('li');
+            listaAdd.innerHTML = sequenciaUmADez[index];
+            listaFilhoDoFilhoDoIrmaoDePai3.appendChild(listaAdd);
         }
 
+        // 9 - Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
 
+        for (let index2 = 1; index2 <= 3; index2 += 1) {
+            let elementH3 = document.createElement('h3');
+            elementH3.innerHTML = "Show " + index2;
+            irmaoDePai.appendChild(elementH3);
+        }
+
+        // 10 - Adicione a classe title na tag h1 criada;
+
+        filhoDePai.className = "title";
+
+        // 11 - Adicione a classe description nas 3 tags h3 criadas;
+
+        let classeH3 = document.getElementsByClassName("main-content")[0].children;
+
+        for (let index = 3; index < 6; index += 1) {
+            classeH3[index].className = "description";
+        }
+
+        // 12 - Remova a section criado no passo 5 (aquele que possui a classe left-content ). Utilize a função .removeChild() ;
+        
+        let removePasso5 = document.getElementsByClassName("left-content")[0];
+
+        irmaoDePai.removeChild(removePasso5);
+        
+        // 13 - Centralize a section criado no passo 6 (aquele que possui a classe right-content ). Dica: para centralizar, basta configurar o margin-right: auto da section ;
+        
+        
+        
+        // 14 - Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content ) para a cor verde;
+        
+        
+        
+        // 15 - Remova os dois últimos elementos ( nove e dez ) da lista criada no passo 8.
 
 
 

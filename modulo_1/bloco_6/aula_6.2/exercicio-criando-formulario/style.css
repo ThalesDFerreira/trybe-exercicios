@@ -1,39 +1,6 @@
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-}
-
-header h1{
-  text-align: center;
-}
-
-.margin1 {
-  border: black double;
-  margin: 10px;
-  padding: 5px;
-}
-
-.espaçamento {
-  margin: 10px;
-}
-
-.cordefundo {
+  font-size: 18px;
   background-color: white;
+  color: rgb(38, 56, 66);
 }
-
-#botaoEnviar {
-margin: 10px;
-}
-
-#botaoLimpar {
-  margin: 10px;
-}
-
-#botaoEnviar:hover {
-  border: green solid 2px;
-  }
-  
-  #botaoLimpar:hover {
-    border: red solid 2px;
-  }
-

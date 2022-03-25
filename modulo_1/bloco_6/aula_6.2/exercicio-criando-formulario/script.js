@@ -28,3 +28,4 @@ function addBotaoLimpar() {
 addBotaoEnviar();
 interrompeAçaoEnviar();
 addBotaoLimpar();
+document.getElementById("date").DatePickerX.init();

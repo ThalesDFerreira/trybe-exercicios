@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Hotel Trybe</title>
+</head>
+
+<body>
+  <!-- Seu código aqui -->
+  <header class="header-trybe">
+    <img src="https://remotar.com.br/wp-content/uploads/2020/10/Trybe-200x200.jpg" alt="">
+    <h1>Hotel Trybe</h1>
+  </header>
+  <main>
+    <form action="" method="get">
+      <section class="hotel-form">
+        <label for="inputCheckin">Check-in:
+          <input type="date" id="inputCheckin" class="inputCheckin">
+        </label>
+        <label for="inputCheckout">Check-out:
+          <input type="date" id="inputCheckout" class="inputCheckout">
+        </label>
+      </section>
+      <section class="hotel-form">
+        <legend>Quartos:</legend>
+        <input type="radio" class="bedroom" id="comum" name="quartos" value="quarto-comum">
+        <label for="comum">Comum</label>
+        <input type="radio" class="bedroom" id="club" name="quartos" value="quarto-club">
+        <label for="club">Club</label>
+        <input type="radio" class="bedroom" id="luxo" name="quartos" value="quarto-luxo">
+        <label for="luxo">Luxo</label>
+      </section>
+      <section class="hotel-form">
+        <label for="pessoas">Pessoas:
+        <select name="quantidade-pessoas" id="pessoas" class="nPessoas">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </label>
+      </section>
+      <section class="hotel-form">
+        <textarea name="" id="" cols="50" rows="10" placeholder="Observação" class="obs"></textarea>
+      </section>
+      <button type="submit" id="submit-btn">Reservar</button>
+    </form>
+    <section class="list-section">
+      <h2>Lista de reservas</h2>
+      <ol></ol>
+      <button id="clear-btn">Limpar</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

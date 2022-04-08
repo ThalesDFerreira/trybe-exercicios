@@ -74,6 +74,10 @@ const books = [
 //   releaseYear: 1991,
 // };
 
-function getNamedBook() {
-  // escreva seu código aqui
-}
+function getNamedBook(numero, arr) {
+  return arr.find((livro) => {
+    return numero === livro.name.length;
+  });
+};
+
+console.log(getNamedBook(26, books));

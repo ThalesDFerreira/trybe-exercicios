@@ -88,6 +88,12 @@ const books = [
 //   },
 // ];
 
-function oldBooksOrdered() {
-  // escreva seu código aqui
-}
+function oldBooksOrdered(arr) {
+  const anoVigente = new Date().getFullYear();
+  return arr.filter((livro) => {
+    return (anoVigente - livro.releaseYear) > 60;
+  })
+  .sort((livroA, libroB) => livroA.releaseYear - libroB.releaseYear);
+};
+
+console.log(oldBooksOrdered(books));

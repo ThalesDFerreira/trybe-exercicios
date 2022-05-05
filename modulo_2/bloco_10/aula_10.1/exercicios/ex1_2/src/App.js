@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+// 1 .🚀 Crie um novo projeto utilizando npx create-react-app nome-app e acesse a pasta nome-app
+// ⚠️ Substitua o nome-app pelo que você desejar para seu app ⚠️
+// 2 .🚀 Crie uma lista de tarefas simples seguindo os passos abaixo:
+// insira a função Task a seguir acima do seu componente App dentro do arquivo App.js:
+// agora, chame a função dentro do seu componente App (não se esqueça da sintaxe JSX!). Insira o valor que você quiser, salve a página e inicie-a rodando o comando npm start.
+// por fim, crie uma array de compromissos e use a função map para que cada item do array apareça, como um item de lista, no seu componente App
+    
+    import React from 'react';
+    import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    const Task = (value) => {
+      return (
+        <li key={value}>{value}</li>
+      );
+    }
 
-export default App;
+    const tarefas = ['Acordar', 'Tomar café', 'Escovar os dentes', 'Ir trabalhar'];
+
+    class App extends React.Component {
+      render() {
+        return (
+          <ul>{ tarefas.map(tarefa => Task(tarefa)) }</ul>
+        );
+      }
+    }
+
+    export default App;

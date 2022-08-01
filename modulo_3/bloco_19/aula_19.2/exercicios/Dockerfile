@@ -1,7 +1,7 @@
 FROM chuanwen/cowsay
 WORKDIR /usr/games/
 EXPOSE 80
-COPY . /usr/games/
+#COPY . .
 #RUN alguma coisa
-ENTRYPOINT ["echo"]
+ENTRYPOINT ["/usr/games/cowsay"]
 CMD ["Muuuuuuhhh"]

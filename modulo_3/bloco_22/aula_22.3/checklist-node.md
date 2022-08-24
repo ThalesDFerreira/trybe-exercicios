@@ -89,3 +89,11 @@ npm install cors@2.8
 
 const cors = require('cors');
 app.use(cors());
+
+13 - EXPRESS-ASYNC-ERROR
+
+npm i express-async-error
+
+importar ele no "app" depois do "express"
+
+require('express-async-error');
